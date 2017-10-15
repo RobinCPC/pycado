@@ -1,0 +1,6 @@
+# Byte-compiled
+*.pyc
+
+# IDE setting
+.idea/
+
