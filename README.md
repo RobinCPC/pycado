@@ -1,18 +1,21 @@
-=============================================
 PROJECT
-Pycado alpha version
-
 =============================================
+### Pycado alpha version
+
+![demo](./pycado/data/cnc_components.jpg)
+
 DESCRIPTION
+=============================================
 Pycado is an object oriented 3D CAD scripting language based on pythonocc with a graphical interactive editor
 
-=============================================
 AUTHORS
+=============================================
 Julien Blanchard - julienbld --- yahoo --- fr
+
 Charles Clément - caratorn --- gmail --- com
 
-=============================================
 HOMEPAGE
+=============================================
 https://github.com/julienbld/pycado
 
 
@@ -48,9 +51,8 @@ dependency tree.
 
 2 - INSTALLATION
 ================
-Pycado is based on pythonocc, so the first step is to install pythonocc, which
-depends on the OpenCASCADE library (http://www.opencascade.org/), swig 
-(http://www.swig.org/), QScintilla(http://www.riverbankcomputing.co.uk/software/qscintilla).
+Pycado is based on pythonocc, so the first step is to install [pythonocc](https://github.com/tpaviot/pythonocc-core), which
+depends on the [OpenCASCADE library](http://www.opencascade.org/), [swig](http://www.swig.org/), [QScintilla](http://www.riverbankcomputing.co.uk/software/qscintilla).
 
 
 
