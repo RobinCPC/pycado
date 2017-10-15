@@ -236,8 +236,10 @@ def main(argv=sys.argv):
   # INIT DISPLAY   
   gui.canva.InitDriver()
   #gui.canva._display.SetBackgroundImage(nspace.config["background"])
-  gui.canva._display.SetBackgroundImage(get_abs_filename())
-  #gui.canva._display.GetViewer().GetObject().SetDefaultBackgroundColor(OCC.Quantity.Quantity_NOC_YELLOW)
+  #gui.canva._display.SetBackgroundImage(get_abs_filename())
+  gui.canva._display.GetView().GetObject().SetBgGradientColors(OCC.Quantity.Quantity_NOC_NAVYBLUE,
+                                                               OCC.Quantity.Quantity_NOC_SNOW,
+                                                               OCC.Aspect.Aspect_GFM_VER)
   gui.canva._display.View_Iso()
 
     
