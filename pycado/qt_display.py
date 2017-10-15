@@ -116,7 +116,7 @@ class qtViewer3d(qtBaseViewer):
             raise "Please set the CSF_GraphicShr environment variable."
         self._display = OCCViewer.Viewer3d(self.GetHandle())
         self._display.Create()
-        self._display.DisplayTriedron()
+        self._display.display_trihedron()
         self._display.SetModeShaded()
         self._inited = True
         # dict mapping keys to functions
@@ -131,8 +131,7 @@ class qtViewer3d(qtBaseViewer):
                          ord('S'): set_shade_mode,
                          ord('A'): self._display.EnableAntiAliasing,
                          ord('B'): self._display.DisableAntiAliasing,
-                         ord('Q'): self._display.SetModeQuickHLR,
-                         ord('E'): self._display.SetModeExactHLR,
+                         ord('H'): self._display.SetModeHLR,
                          ord('F'): self._display.FitAll,
                          #ord('F'): self._display.ExportToImage("essai.BMP"),
                          #ord('F'): self._display.SetBackgroundImage("carrelage1.gif"),

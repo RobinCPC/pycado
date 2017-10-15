@@ -269,7 +269,7 @@ class surface(pycado_obj):
         self.data = BRepAlgo_Cut(args[1].topology, args[2].topology)
         ex = TopExp_Explorer()
         ex.Init(self.data.Shape(), TopAbs_FACE)
-        self.topology = TopoDS().Face(ex.Current())
+        self.topology = topods_Face(ex.Current())
     else:
       self.value = args
       self.data = BRepBuilderAPI_MakeWire()
