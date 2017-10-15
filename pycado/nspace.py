@@ -2,7 +2,7 @@
 import OCC.Quantity
 from OCC.Graphic3d import *
 from OCC import TopExp, BRepPrimAPI, TopAbs, TopoDS, BRep
-from OCC.Utils.Topology import Topo
+from OCCUtils.Topology import Topo
 from OCC.BRepAlgo import *
 from OCC.TopoDS import TopoDS_Compound
 
