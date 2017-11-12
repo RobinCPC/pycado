@@ -4,7 +4,7 @@ PROJECT
 
 | **Build in Windows**                              | **Build in macOS**                               |
 | :----:                                            | :----:                                           |
-| ![demo_Windows](./pycado/data/cnc_components.jpg) | ![demo_Mac](./pycado/data/cnc_component_mac.png) |
+| <img src="./pycado/data/cnc_components.jpg" width="480" alt="demo_Windows"/> | <img src="./pycado/data/cnc_component_mac.png" width="480" alt="demo_Mac"/> |
 
 DESCRIPTION
 =============================================
