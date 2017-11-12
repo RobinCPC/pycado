@@ -2,7 +2,9 @@ PROJECT
 =============================================
 ### Pycado alpha version
 
-![demo](./pycado/data/cnc_components.jpg)
+| **Build in Windows**                              | **Build in macOS**                               |
+| :----:                                            | :----:                                           |
+| ![demo_Windows](./pycado/data/cnc_components.jpg) | ![demo_Mac](./pycado/data/cnc_component_mac.png) |
 
 DESCRIPTION
 =============================================
